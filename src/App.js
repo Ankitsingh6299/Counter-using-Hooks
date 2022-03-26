@@ -4,12 +4,14 @@ import Hooks from './components/Hooks';
 import HooksCounter2 from './components/HooksCounter2';
 import HooksForm from './components/HooksForm';
 import CounterUseEffect from './components/CounterUseEffect';
+import MousePosition from './components/MousePosition';
 
 function App() {
   return (
     <div className="App">
-      <CounterUseEffect />
+      {/*<CounterUseEffect />*}
       {/*<HooksForm />*/}
+      <MousePosition />
     </div>
   );
 }
